@@ -80,10 +80,10 @@ furia_chatbot/
 ## 🔌 Diagramas Técnicos
 
 ### Fluxo Geral da Aplicação
-> _adicione aqui a imagem do fluxo_
+![diagrama de fluxo](./frontend/src/assets/flow.png)
 
-### Diagrama de Pastas
-> _adicione aqui a imagem da estrutura_
+### Diagrama de Classes
+![diagrama de fluxo](./frontend/src/assets/class.png)
 
 ---
 
