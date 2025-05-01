@@ -130,4 +130,8 @@
   .chatbox {
     padding: 1rem;
   }
+
+  body {
+    overflow: hidden;
+  }
 }
