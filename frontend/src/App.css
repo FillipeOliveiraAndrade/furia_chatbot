@@ -121,6 +121,8 @@
 
   .logo {
     font-size: 1.8rem;
+    top: 0.5rem;
+    text-align: center;
   }
 
   .header {
