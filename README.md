@@ -2,13 +2,16 @@
 
 Um projeto de chatbot interativo e temático da FURIA Esports, com foco no cenário de **Valorant**. Desenvolvido com **React + TypeScript** no frontend e **FastAPI** no backend, o bot simula uma conversa empolgada com torcedores, responde perguntas sobre o time e ainda pode ser atualizado com dados em tempo real no futuro.
 
-![banner furia chatbot](./docs/furia-banner.png) <!-- substitua com seu caminho real -->
+![banner furia chatbot](./src/assets/furia-bg.png)
 
 ---
 
 ## 🔥 Demonstração
 
-> 💬 Em construção... Link de deploy será adicionado em breve!
+🟢 Acesse agora:
+
+- 💻 **Frontend (Vercel):** [https://furia-chatbot-eta.vercel.app](https://furia-chatbot-eta.vercel.app)
+- 🔙 **Backend (Render):** [https://furia-chatbot-kqy0.onrender.com](https://furia-chatbot-kqy0.onrender.com)
 
 ---
 
@@ -29,6 +32,7 @@ Criar uma experiência conversacional que represente a identidade da FURIA Espor
 - [TypeScript](https://www.typescriptlang.org/)
 - Estilização com CSS puro
 - API: Axios
+- ✅ **Totalmente responsivo** para mobile, tablet e desktop
 
 ### Backend
 - [FastAPI](https://fastapi.tiangolo.com/)
@@ -54,6 +58,7 @@ furia_chatbot/
 │   │   ├── api/
 │   │   └── App.tsx
 │   ├── public/
+│   ├── vercel.json
 │   └── package.json
 ```
 
@@ -68,6 +73,7 @@ furia_chatbot/
 - 🔁 Histórico de conversa mantido durante a sessão
 - 🚀 Chamadas para seguir a FURIA nas redes sociais
 - 🧪 Mock de loading enquanto a IA responde
+- 📱 Responsividade completa em telas pequenas
 
 ---
 
@@ -88,12 +94,13 @@ furia_chatbot/
 - Arquivo `render.yaml` configurado com:
   - Root directory: `backend`
   - Build command: `pip install -r requirements.txt`
-  - Start command: `uvicorn app.services.main:app --host 0.0.0.0 --port 8000`
+  - Start command: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
 
-### Frontend (Vercel ou Render)
-- Build com `npm run build`
-- Deploy via GitHub no Vercel ou Render
-- Consome a URL do backend publicada
+### Frontend (Vercel)
+- Root directory: `frontend`
+- Build command: `npm run build`
+- Output: `dist`
+- Proxy configurado com `vercel.json` para `/api` → backend
 
 ---
 
@@ -102,7 +109,7 @@ furia_chatbot/
 - 🔁 Integração com a API do [vlr.gg](https://vlr.gg) para estatísticas em tempo real
 - 🎮 Modo "Fan Trivia" para testar conhecimento dos usuários sobre a FURIA
 - 🌍 Suporte multilíngue
-- 📱 Versão mobile responsiva
+- 📱 Versão mobile responsiva ✅ **(já implementada!)**
 
 ---
 
