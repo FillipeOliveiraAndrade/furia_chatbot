@@ -1,0 +1,44 @@
+# Node modules
+/frontend/node_modules/
+# Build output
+/frontend/dist/
+# Vercel
+/frontend/.vercel/
+# Vite cache
+/frontend/.vite/
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+.env.*
+
+# Python cache
+/backend/__pycache__/
+/backend/app/**/__pycache__/
+
+# Python virtual environments
+venv/
+backend/venv/
+.env/
+.envrc
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build output (Python)
+build/
+dist/
+*.egg-info/
+
+# Render config (optional to hide)
+render.yaml
