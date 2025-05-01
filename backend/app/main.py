@@ -8,7 +8,6 @@ app = FastAPI(
     description="API para fornecer dados e respostas do chatbot FURIA."
 )
 
-# Adiciona o middleware CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -19,8 +18,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
 
 # Registra as rotas
 app.include_router(chat.router, prefix="/chat", tags=["Chat"])
