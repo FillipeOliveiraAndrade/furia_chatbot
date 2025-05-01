@@ -2,7 +2,7 @@
 
 Um projeto de chatbot interativo e temático da FURIA Esports, com foco no cenário de **Valorant**. Desenvolvido com **React + TypeScript** no frontend e **FastAPI** no backend, o bot simula uma conversa empolgada com torcedores, responde perguntas sobre o time e ainda pode ser atualizado com dados em tempo real no futuro.
 
-![banner furia chatbot](./src/assets/furia-bg.png)
+![banner furia chatbot](./frontend/src/assets/furia-bg.png)
 
 ---
 
