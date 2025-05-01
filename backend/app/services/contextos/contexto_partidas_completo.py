@@ -1,5 +1,8 @@
 contexto_partidas = """🔸 Histórico de Partidas Recentes da FURIA (Valorant)
 
+🎯 VCT 25: AMER Stage 2 (Próximo Campeonato Confirmado)
+- Ainda sem datas ou adversários definidos.
+
 🎯 VCT 25: AMER Stage 1
 - 2025/04/18 — FURIA 1×2 MIBR
 - 2025/04/12 — FURIA 0×2 Cloud9
