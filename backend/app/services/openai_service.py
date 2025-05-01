@@ -4,7 +4,7 @@ from app.services.contextos.contexto_base import contexto_institucional
 from app.services.contextos.contexto_partidas_completo import contexto_partidas
 from app.services.contextos.contexto_noticias import contexto_noticias
 
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key="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")
 
 # Mapeia conversas por sessão fictícia
 conversas = {}
