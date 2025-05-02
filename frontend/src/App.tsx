@@ -1,6 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './App.css';
+
 import bg from './assets/furia-bg.png';
+import logo from './assets/logo.png';
+
 import { askQuestion } from './api/chatbot';
 
 const App = () => {
@@ -40,7 +43,7 @@ const App = () => {
 
   return (
     <div className="app" style={{ backgroundImage: `url(${bg})` }}>
-      <div className="logo">FURIA</div>
+      <img src={logo} alt='logo da furia' className='logo' /> 
 
       <div className="chatbox">
         <div className="header">Como posso ajudar?</div>

@@ -11,12 +11,12 @@
 }
 
 .logo {
-  font-size: 5rem;
-  font-weight: bold;
   position: absolute;
-  top: 1rem;
-  left: 2rem;
-  color: #fff;
+  top: 0.5rem;
+  left: 5rem;
+  width: 250px;
+  height: auto;
+  max-width: 80%;
 }
 
 .chatbox {
@@ -119,13 +119,6 @@
     font-size: 0.85rem;
   }
 
-  .logo {
-    font-size: 2rem;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-
   .header {
     font-size: 1.1rem;
   }
@@ -134,7 +127,9 @@
     padding: 1rem;
   }
 
-  body {
-    overflow: hidden;
+  .logo {
+    width: 120px;
+    top: 0.8rem;
+    left: 1rem;
   }
 }
