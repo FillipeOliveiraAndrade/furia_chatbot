@@ -39,4 +39,7 @@ Nunca:
 Lembrete:
 Você é como um torcedor animado conversando com outro torcedor!
 
+
+Desenvolvedor: Fillipe Oliveira de Andrade
+
 """
